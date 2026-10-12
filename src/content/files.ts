@@ -70,4 +70,79 @@ export const FILES: GhostFile[] = [
       ].join("\n"),
     },
   ),
+  F(
+    "mara_voss",
+    "mara_voss.dat",
+    "/CASE_014/personnel/mara_voss.dat",
+    "corrupted",
+    {
+      created: "2002-03-11 10:00",
+      modified: "2003-10-14 22:14",
+      owner: "hr",
+    },
+    {
+      contents: [
+        "EMPLOYEE RECORD — MV-0041 (partial recovery)",
+        "Name: Mara Voss",
+        "Role: Lead Systems Engineer, Facility 6",
+        "Clearance: systems, archives",
+        "",
+        "Session fragment: sign-in 22:14, Oct 14",
+        "Last recorded activity: 00:07, Oct 15 — session still open",
+        "",
+        "[SECTOR DAMAGED — 214 bytes unreadable]",
+        "",
+        "Note: employee disputed the backup-tape replacement",
+        "schedule on three separate occasions.",
+      ].join("\n"),
+    },
+  ),
+
+  F(
+    "silas_renn",
+    "silas_renn.txt",
+    "/CASE_014/personnel/silas_renn.txt",
+    "text",
+    {
+      created: "2001-06-04 09:30",
+      modified: "2003-08-19 11:15",
+      owner: "hr",
+    },
+    {
+      contents: [
+        "Silas Renn - Director, Facility 6",
+        "",
+        "With Meridian since 1998. Oversees system, archives,",
+        "and the external audit scheduled for October 15.",
+        "",
+        "Direct reports: M. Voss (systems), D. Okafor (records),",
+        "J. Lindqvist (systems, junior).",
+      ].join("\n"),
+    },
+  ),
+
+  F(
+    "staff_list",
+    "staff_list.txt",
+    "/CASE_014/personnel/staff_list.txt",
+    "text",
+    {
+      created: "2003-01-06 09:00",
+      modified: "2003-10-01 16:44",
+      owner: "hr",
+    },
+    {
+      contents: [
+        "Facility 6 - STAFF (october 2003)",
+        "",
+        "Mara Voss - Lead System Engineer",
+        "Silas Renn - Director",
+        "Dana Okafor - records clerk",
+        "Jonas Lindqvist - junior sysadmin",
+        "priya natarajan - QA (contractor)",
+        "",
+        "(list not updated since january. - hr)",
+      ].join("\n"),
+    },
+  ),
 ];
