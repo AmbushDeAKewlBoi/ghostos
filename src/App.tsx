@@ -24,7 +24,21 @@ function App() {
           ))}
         </div>
 
-        <pre style={{ whiteSpace: "pre-wrap" }}>{selectedFile?.contents}</pre>
+        <div>
+          <p>
+            <strong>Path:</strong> {selectedFile?.path}
+          </p>
+          <p>
+            <strong>Modified:</strong> {selectedFile?.metadata.modified}
+          </p>
+          {selectedFile?.metadata.checksum && (
+            <p>
+              <strong>Checksum:</strong> {selectedFile.metadata.checksum}
+            </p>
+          )}
+
+          <pre style={{ whiteSpace: "pre-wrap" }}>{selectedFile?.contents}</pre>
+        </div>
       </div>
     </main>
   );
